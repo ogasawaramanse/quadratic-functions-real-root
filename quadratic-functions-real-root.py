@@ -1,6 +1,8 @@
 import time
 print("as a*x**2+b*x+c an example")
-a=float(input("a"))
+a=0
+while float(a)==0:
+	a=float(input("a"))
 b=float(input("b"))
 c=float(input("c"))
 def  giao(a,b,c):

@@ -1,5 +1,5 @@
 import time
-print("as a*x**2+b*x+c an example")
+print("as a*x**2+b*x+c（a≠0） an example")
 a=0
 while float(a)==0:
 	a=float(input("a"))
